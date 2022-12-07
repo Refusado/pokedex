@@ -4,14 +4,22 @@
 }
 
 body {
-    background-color: #f6f8fc;
+    background-color: #414141;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
 }
 
 .content {
     width: 100vw;
-    height: 100vh;
+    max-height: 90vh;
+    overflow-y: scroll;
+    overflow-x: hidden;
     padding: 1rem;
-    background-color: #fff;
+    background-color: #2c2c2c;
+    color: #eeece7;
 }
 
 @media screen and (min-width: 992px) {
